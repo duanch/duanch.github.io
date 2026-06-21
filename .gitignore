@@ -27,6 +27,7 @@ hugo_stats.json
 
 # Dependencies
 node_modules/
+.pnpm-store/
 
 # ============================================================================
 # Environment & Configuration
@@ -67,3 +68,6 @@ Desktop.ini
 
 *.log
 npm-debug.log*
+
+# Local source spreadsheets
+*.xlsx

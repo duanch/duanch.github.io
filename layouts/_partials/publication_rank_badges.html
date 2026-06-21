@@ -1,0 +1,18 @@
+{{- with .Params.tags -}}
+  <div class="publication-rank-badges" aria-label="Publication rankings">
+    {{- range . -}}
+      {{- $tag := printf "%v" . -}}
+      {{- if or (hasPrefix $tag "CCF-") (hasPrefix $tag "中科院") -}}
+        {{- $class := "cas-rank" -}}
+        {{- if eq $tag "CCF-A" -}}
+          {{- $class = "ccf-a" -}}
+        {{- else if eq $tag "CCF-B" -}}
+          {{- $class = "ccf-b" -}}
+        {{- else if eq $tag "CCF-C" -}}
+          {{- $class = "ccf-c" -}}
+        {{- end -}}
+        <span class="publication-rank-badge {{ $class }}">{{ $tag }}</span>
+      {{- end -}}
+    {{- end -}}
+  </div>
+{{- end -}}

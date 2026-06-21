@@ -6,7 +6,7 @@
 # Website name (set in params.yaml under hugoblox.branding.name)
 title: ''
 # Website URL
-baseURL: 'https://example.com/'
+baseURL: '/'
 
 ############################
 ## LANGUAGE
@@ -36,7 +36,7 @@ build:
 enableGitInfo: false
 summaryLength: 30
 pagination:
-  pagerSize: 10
+  pagerSize: 100
 enableEmoji: true
 enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
@@ -52,9 +52,9 @@ imaging:
   hint: picture
 timeout: 600000
 taxonomies:
-  author: authors
-  tag: tags
-  publication_type: publication_types
+  # author: authors
+  # tag: tags
+  # publication_type: publication_types
 markup:
   _merge: deep
   highlight:
