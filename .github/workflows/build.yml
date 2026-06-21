@@ -124,6 +124,7 @@ jobs:
 
     - name: Setup Pages
       id: pages
+      if: github.event_name != 'pull_request'
       uses: actions/configure-pages@v5
 
     - name: Build with Hugo
@@ -132,7 +133,7 @@ jobs:
         HUGO_BLOX_LICENSE: ${{ secrets.HUGO_BLOX_LICENSE }}
       run: |
         echo "Hugo Cache Dir: $(hugo config | grep cachedir)"
-        hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+        hugo --minify --baseURL "${{ steps.pages.outputs.base_url || '/' }}"
 
     - name: Generate Pagefind search index (if applicable)
       run: |
