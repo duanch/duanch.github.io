@@ -16,9 +16,10 @@ on:
   # Allow manual trigger for testing
   workflow_dispatch:
 
-# Read-only permissions for security
+# Minimal permissions for security (pages write required by configure-pages)
 permissions:
   contents: read
+  pages: write
 
 # Prevent duplicate builds for the same PR
 concurrency:
