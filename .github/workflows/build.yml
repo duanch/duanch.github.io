@@ -19,6 +19,7 @@ on:
 # Read-only permissions for security
 permissions:
   contents: read
+  pages: write
 
 # Prevent duplicate builds for the same PR
 concurrency:
