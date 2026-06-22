@@ -16,9 +16,10 @@ on:
   # Allow manual trigger for testing
   workflow_dispatch:
 
-# Read-only permissions for security
+# Minimal permissions for security (pages write required by configure-pages)
 permissions:
   contents: read
+  pages: write
 
 # Prevent duplicate builds for the same PR
 concurrency:
@@ -124,7 +125,7 @@ jobs:
 
     - name: Setup Pages
       id: pages
-      if: github.event_name != 'pull_request'
+      if: github.event_name != 'pull_request' && github.event_name != 'workflow_call'
       uses: actions/configure-pages@v5
 
     - name: Build with Hugo
