@@ -25,6 +25,13 @@ hugoblox:
     doi: "10.1145/3450268.3453515"
 ---
 
+## Abstract
+
+Tag antenna damage is a common phenomenon in real-world RFID systems, which incurs severe changes of antenna
+impedance and antenna gain. Existing RFID sensing systems leveraging signal features (e.g., phase readings)
+related to antenna impedance or gain are vulnerable to such tag antenna damage jeopardizing sensing accuracy
+and reliability.
+
 ## Citation
 
 Y. Zhu, C. Duan, and X. Ding, “Accurate and Fast Detection of Tag Antenna Damage for RFID Sensing: Poster Abstract,” in Proceedings of the ACM/IEEE International Conference on Internet-of-Things Design and Implementation (IoTDI), 2021, pp. 269-270.

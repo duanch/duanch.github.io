@@ -29,6 +29,23 @@ hugoblox:
     doi: "10.1109/SECON55815.2022.9918585"
 ---
 
+## Abstract
+
+Unauthorized access attack has always been a critical problem in RFID systems since any illegitimate reader
+can conduct access commands on tags without authorization and leave no trace. Past solutions for reader
+authentication require either modifications on EPC-global Gen2 protocol, which are inapplicable to existing
+infrastructures, or numerous extra customized devices as communication monitors, which incur high overhead. In
+this paper, we present a universal, low-cost and effective system to authenticate RFID readers, namely
+ReaderPrint, which only requires an extra passive tag array and is fully compatible with Gen2 protocol. The
+key insight behind ReaderPrint is that the impedance mismatch degrees (IMD) of different reader antennas
+across channels are distinguishable. We verify this mechanism through empirical studies using vector network
+analyzer and further propose two brand-new forms of hardware fingerprints, i.e., IMD-induced transmission
+power attenuation (ITPA) and phase shifts (IPS) across channels to quantify the IMD. Besides, to address the
+negative impacts of environmental changes, well-refined fingerprint matching algorithms are designed
+accordingly. We implement a prototype of ReaderPrint and evaluate it on 96 different readers in three indoor
+scenarios. Experimental results show that ReaderPrint can achieve fairly high authentication accuracy of up to
+97.2%, regardless of environmental or device conditions.
+
 ## Citation
 
 Y. Zhu, C. Duan, X. Ding, and Z. Yang, “ReaderPrint: A Universal Method for RFID Readers Authentication Based on Impedance Mismatch,” in Proceedings of the IEEE International Conference on Sensing, Communication, and Networking(SECON), 2022, pp. 352-360.

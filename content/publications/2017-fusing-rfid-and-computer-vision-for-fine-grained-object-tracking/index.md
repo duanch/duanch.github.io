@@ -31,6 +31,21 @@ hugoblox:
     doi: "10.1109/INFOCOM.2017.8057161"
 ---
 
+## Abstract
+
+In recent years, both the RFID and computer vision technologies have been widely employed in indoor scenarios
+aimed at different goals while faced with respective limitations. For example, the RFID-based EAS system is
+useful in quickly identifying tagged objects but the accompanying false alarm problem is troublesome and hard
+to tackle with except that the accurate trajectory of the target tag can be easily acquired. On the other
+side, the CV system performs fairly well in tracking multiple moving objects precisely while finding it
+difficult to screen out the specific target among them. To overcome the above limitations, we present
+TagVision, a hybrid RFID and computer vision system for fine-grained localization and tracking of tagged
+objects. A fusion algorithm is proposed to organically combine the position information given by the CV
+subsystem, and phase data output by the RFID subsystem. In addition, we employ the probabilistic model to
+eliminate the measurement error caused by thermal noise and device diversity. We have implemented TagVision
+with COTS camera and RFID devices and evaluated it extensively in our lab environment. Experimental results
+show that TagVision can achieve 98% blob matching accuracy and 10.33mm location tracking precision.
+
 ## Citation
 
 C. Duan, X. Yang, L. Yang, and Y. Liu, “Fusing RFID and Computer Vision for Fine-Grained Object Tracking,” in Proceedings of the IEEE International Conference on Computer Communications(INFOCOM), 2017, pp. 1-9.

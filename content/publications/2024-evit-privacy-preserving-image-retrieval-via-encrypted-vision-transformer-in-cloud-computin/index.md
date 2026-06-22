@@ -43,6 +43,26 @@ hugoblox:
     doi: "10.1109/TCSVT.2024.3370668"
 ---
 
+## Abstract
+
+Image retrieval systems help users to browse and search among extensive images in real time. With the rise of
+cloud computing, retrieval tasks are usually outsourced to cloud servers. However, the cloud scenario brings a
+daunting challenge of privacy protection as cloud servers cannot be fully trusted. To this end,
+image-encryption-based privacy-preserving image retrieval (PPIR) schemes have been developed, which first
+extract features from cipher-images, and then build retrieval models based on these features. Yet, most
+existing PPIR approaches extract shallow features and design trivial unsupervised retrieval models, resulting
+in insufficient expressiveness for the cipher-images. In this paper, we propose a novel paradigm named
+Encrypted Vision Transformer (EViT), which advances the discriminative representations capability of
+cipher-images. First, to capture comprehensive ruled information, we extract multi-level local length sequence
+and global Huffman-Code frequency features from the cipher-images which are encrypted by permutation
+encryption, sign encryption, and stream cipher during the JPEG compression process. Second, we design the
+modified self-supervised Vision Transformer with Huffman-embedding and propose two robust data augmentations
+on cipher-images to improve representation power of the retrieval model. Moreover, our proposal can be easily
+adapted to unsupervised or supervised settings. Extensive experiments reveal that EViT achieves both excellent
+encryption and retrieval performance, outperforming current schemes in terms of retrieval accuracy by large
+margins while protecting image privacy effectively. Code is publicly available at
+https://github.com/onlinehuazai/EViT.
+
 ## Citation
 
 Q. Feng, P. Li, Z. Lu, C. Li, Z. Wang, Z. Liu, C. Duan, F. Huang, J. Weng, and P. Yu, “EViT: Privacy-Preserving Image Retrieval via Encrypted Vision Transformer in Cloud Computing,” IEEE Transactions on Circuits and Systems for Video Technology(TCSVT), vol. 34, no. 8, pp. 7467-7483, 2024.

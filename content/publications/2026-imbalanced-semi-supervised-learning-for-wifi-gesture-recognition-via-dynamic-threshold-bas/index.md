@@ -39,6 +39,26 @@ hugoblox:
     doi: "10.1109/TMC.2025.3592965"
 ---
 
+## Abstract
+
+WiFi sensing advancements facilitate the capture of human gestures from wireless signals, ensuring both
+privacy preservation and robustness under low-light conditions. Deep learning-based WiFi Human Gesture
+Recognition (HGR) demonstrates remarkable performance in handling complex gestures. To reduce labeling
+efforts, recent years have seen the emergence of semi-supervised WiFi HGR, leveraging massive amounts of
+unlabeled data. However, existing semi-supervised schemes often assume a balanced class distribution and
+utilize a fixed threshold for selecting pseudo-labels of unlabeled samples, leading to low performance for
+minority classes and decreased model generalization on real-world imbalanced datasets. To address this issue,
+we propose a novel semi-supervised WiFi HGR approach with dynamic pseudo-labeling thresholds to handle
+imbalanced class distribution, incorporating Spatial-Temporal Attention (STA) networks. Unlike using a fixed
+threshold for all unlabeled samples, our design implements class-independent thresholds for different classes,
+dynamically adjusting them by encoding pseudo-label distribution during training. To emphasize critical
+features in informative areas within the WiFi signals, we incorporate both spatial self-attention and temporal
+attention mechanisms to dynamically learn salient features and identify pivotal frames, respectively.
+Moreover, we introduce adaptive WiFi data augmentations that propel the semi-supervised framework and enhance
+model robustness. Experimental results on the Widar3.0 dataset reveal that our approach outperforms existing
+semi-supervised methods by large margins in accuracy, effectively mitigating imbalanced bias and enhancing
+model generalization.
+
 ## Citation
 
 Q. Feng, C. Duan, J. Xue, C. Li, F. Huang, X. Zhang, J. Weng, and P. Yu, "Imbalanced Semi-Supervised Learning for WiFi Gesture Recognition via Dynamic Threshold-Based Spatio-Temporal Attention Networks," IEEE Transactions on Mobile Computing (TMC) , vol. 25, no. 1, pp. 483-499, 2026.
