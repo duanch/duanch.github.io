@@ -58,7 +58,7 @@
 
 适合修改文字、日期、链接，以及上传少量附件。
 
-1. 打开本项目的 GitHub 仓库：`https://github.com/duanch/academic-cv`。
+1. 打开本项目的 GitHub 仓库：`https://github.com/duanch/duanch.github.io`。
 2. 找到要修改的文件，点击右上角铅笔按钮 **Edit this file**。
 3. 修改内容后，点击 **Commit changes**。
 4. 填写简短说明，例如 `更新个人简介` 或 `新增 2026 年论文`。
@@ -567,4 +567,3 @@ pnpm build
 ```
 
 如果 `pnpm build` 正常结束，生成的网站会位于 `public/`。该目录仅用于检查构建结果，不需要提交到 GitHub。
-
