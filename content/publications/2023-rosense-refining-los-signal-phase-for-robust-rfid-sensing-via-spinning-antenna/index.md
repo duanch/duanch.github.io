@@ -44,8 +44,8 @@ outperforming the state-of-the-art solutions.
 
 ## Citation
 
-Y. Zhu, C. Duan, and X. Ding, “RoSense: Refining LOS Signal Phase for Robust RFID Sensing via Spinning Antenna,” ACM SIGMETRICS Performance Evaluation Review(PER), vol. 50, no.4, pp. 53-55, 2023.
+Y. Zhu, C. Duan, and X. Ding, “RoSense: Refining LOS Signal Phase for Robust RFID Sensing via Spinning Antenna,” ACM SIGMETRICS Performance Evaluation Review (PER), vol. 50, no.4, pp. 53-55, 2023.
 
 ## 中文引用（GB/T 7714）
 
-Zhu Y, Duan C, Ding X. RoSense: Refining LOS Signal Phase for Robust RFID Sensing via Spinning Antenna[J]. ACM SIGMETRICS Performance Evaluation Review(PER), 2023, 50(4): 53-55.
+Zhu Y, Duan C, Ding X. RoSense: Refining LOS Signal Phase for Robust RFID Sensing via Spinning Antenna[J]. ACM SIGMETRICS Performance Evaluation Review (PER), 2023, 50(4): 53-55.

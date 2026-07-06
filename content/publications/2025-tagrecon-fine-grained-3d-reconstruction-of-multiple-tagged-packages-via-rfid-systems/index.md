@@ -55,8 +55,8 @@ rotation errors for roll, pitch, and yaw angles on average.
 
 ## Citation
 
-Z. Wang, C. Duan, J. Xue, F. Li, Q. Feng, Y. Zhu, and Z. Zhou, “TagRecon: Fine-Grained 3D Reconstruction of Multiple Tagged Packages via RFID Systems,” ACM Transactions on Sensor Networks(TOSN), vol. 21, no. 2, pp. 1-25, 2025.
+Z. Wang, C. Duan, J. Xue, F. Li, Q. Feng, Y. Zhu, and Z. Zhou, “TagRecon: Fine-Grained 3D Reconstruction of Multiple Tagged Packages via RFID Systems,” ACM Transactions on Sensor Networks (TOSN), vol. 21, no. 2, pp. 1-25, 2025.
 
 ## 中文引用（GB/T 7714）
 
-Wang Z, Duan C, Xue J, et al. TagRecon: Fine-Grained 3D Reconstruction of Multiple Tagged Packages via RFID Systems[J]. ACM Transactions on Sensor Networks(TOSN), 2025, 21(2): 1-25.
+Wang Z, Duan C, Xue J, et al. TagRecon: Fine-Grained 3D Reconstruction of Multiple Tagged Packages via RFID Systems[J]. ACM Transactions on Sensor Networks (TOSN), 2025, 21(2): 1-25.

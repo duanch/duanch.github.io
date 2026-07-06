@@ -65,8 +65,8 @@ https://github.com/onlinehuazai/EViT.
 
 ## Citation
 
-Q. Feng, P. Li, Z. Lu, C. Li, Z. Wang, Z. Liu, C. Duan, F. Huang, J. Weng, and P. Yu, “EViT: Privacy-Preserving Image Retrieval via Encrypted Vision Transformer in Cloud Computing,” IEEE Transactions on Circuits and Systems for Video Technology(TCSVT), vol. 34, no. 8, pp. 7467-7483, 2024.
+Q. Feng, P. Li, Z. Lu, C. Li, Z. Wang, Z. Liu, C. Duan, F. Huang, J. Weng, and P. Yu, “EViT: Privacy-Preserving Image Retrieval via Encrypted Vision Transformer in Cloud Computing,” IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), vol. 34, no. 8, pp. 7467-7483, 2024.
 
 ## 中文引用（GB/T 7714）
 
-Feng Q, Li P, Lu Z, et al. EViT: Privacy-Preserving Image Retrieval via Encrypted Vision Transformer in Cloud Computing[J]. IEEE Transactions on Circuits and Systems for Video Technology(TCSVT), 2024, 34(8): 7467-7483.
+Feng Q, Li P, Lu Z, et al. EViT: Privacy-Preserving Image Retrieval via Encrypted Vision Transformer in Cloud Computing[J]. IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), 2024, 34(8): 7467-7483.

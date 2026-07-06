@@ -51,8 +51,8 @@ producing 95% classifying accuracy.
 
 ## Citation
 
-C. Duan, J. Liu, X. Ding, Z. Li, and Y. Liu, “Full-Dimension Relative Positioning for RFID-Enabled Self-Checkout Services,” ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies(IMWUT), vol. 5, no. 1, pp. 1-23, 2021.
+C. Duan, J. Liu, X. Ding, Z. Li, and Y. Liu, “Full-Dimension Relative Positioning for RFID-Enabled Self-Checkout Services,” ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), vol. 5, no. 1, pp. 1-23, 2021.
 
 ## 中文引用（GB/T 7714）
 
-Duan C, Liu J, Ding X, et al. Full-Dimension Relative Positioning for RFID-Enabled Self-Checkout Services[J]. ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies(IMWUT), 2021, 5(1):1-23.
+Duan C, Liu J, Ding X, et al. Full-Dimension Relative Positioning for RFID-Enabled Self-Checkout Services[J]. ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT), 2021, 5(1):1-23.

@@ -48,7 +48,7 @@ scenarios. Experimental results show that ReaderPrint can achieve fairly high au
 
 ## Citation
 
-Y. Zhu, C. Duan, X. Ding, and Z. Yang, “ReaderPrint: A Universal Method for RFID Readers Authentication Based on Impedance Mismatch,” in Proceedings of the IEEE International Conference on Sensing, Communication, and Networking(SECON), 2022, pp. 352-360.
+Y. Zhu, C. Duan, X. Ding, and Z. Yang, “ReaderPrint: A Universal Method for RFID Readers Authentication Based on Impedance Mismatch,” in Proceedings of the IEEE International Conference on Sensing, Communication, and Networking (SECON), 2022, pp. 352-360.
 
 ## 中文引用（GB/T 7714）
 

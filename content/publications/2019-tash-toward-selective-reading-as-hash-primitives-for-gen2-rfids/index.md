@@ -51,8 +51,8 @@ overhead in the air. The tash operator can additionally introduce an overhead dr
 
 ## Citation
 
-Q. Lin, L. Yang, C. Duan, and Z. An, “Tash: Toward Selective Reading as Hash Primitives for Gen2 RFIDs,” IEEE Transactions on Networking(TON), vol. 27, no. 2, pp. 819-834, 2019.
+Q. Lin, L. Yang, C. Duan, and Z. An, “Tash: Toward Selective Reading as Hash Primitives for Gen2 RFIDs,” IEEE Transactions on Networking (TON), vol. 27, no. 2, pp. 819-834, 2019.
 
 ## 中文引用（GB/T 7714）
 
-Lin Q, Yang L, Duan C, et al. Tash: Toward Selective Reading as Hash Primitives for Gen2 RFIDs[J]. IEEE Transactions on Networking(TON), 2019, 27(2): 819-834.
+Lin Q, Yang L, Duan C, et al. Tash: Toward Selective Reading as Hash Primitives for Gen2 RFIDs[J]. IEEE Transactions on Networking (TON), 2019, 27(2): 819-834.

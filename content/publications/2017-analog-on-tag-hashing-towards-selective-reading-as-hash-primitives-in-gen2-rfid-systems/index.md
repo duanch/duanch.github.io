@@ -50,8 +50,8 @@ drop of 29.7%.
 
 ## Citation
 
-L.Yang, Q. Lin, C. Duan, and Z. An, “Analog On-Tag Hashing: Towards Selective Reading as Hash Primitives in Gen2 RFID Systems,” in Proceedings of the ACM International Conference on Mobile Computing and Networking(MobiCom), 2017, pp. 301-314.
+L.Yang, Q. Lin, C. Duan, and Z. An, “Analog On-Tag Hashing: Towards Selective Reading as Hash Primitives in Gen2 RFID Systems,” in Proceedings of the ACM International Conference on Mobile Computing and Networking (MobiCom), 2017, pp. 301-314.
 
 ## 中文引用（GB/T 7714）
 
-Yang L, Lin Q, Duan C, et al. Analog On-Tag Hashing: Towards Selective Reading as Hash Primitives in Gen2 RFID Systems[C]//Proceedings of the ACM International Conference on Mobile Computing and Networking(MobiCom). 2017: 301-314.
+Yang L, Lin Q, Duan C, et al. Analog On-Tag Hashing: Towards Selective Reading as Hash Primitives in Gen2 RFID Systems[C]//Proceedings of the ACM International Conference on Mobile Computing and Networking (MobiCom). 2017: 301-314.

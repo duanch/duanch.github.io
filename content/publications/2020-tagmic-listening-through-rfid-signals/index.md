@@ -16,7 +16,7 @@ publication:
   name: "IEEE International Conference on Distributed Computing Systems"
   short_name: "IEEE ICDCS"
   pages: "1187-1188"
-  location: "Singapore, Singapore"
+  location: "Online"
 peer_reviewed: true
 featured: false
 tags:
@@ -46,8 +46,8 @@ attention of RFID in the concern of surveillance and security.
 
 ## Citation
 
-Y. Li, C. Duan, X. Ding, and C. Liu, “TagMic: Listening Through RFID Signals,” in Proceedings of the IEEE International Conference on Distributed Computing Systems(ICDCS), 2020, pp. 1187-1188.
+Y. Li, C. Duan, X. Ding, and C. Liu, “TagMic: Listening Through RFID Signals,” in Proceedings of the IEEE International Conference on Distributed Computing Systems (ICDCS), 2020, pp. 1187-1188.
 
 ## 中文引用（GB/T 7714）
 
-Li Y, Duan C, Ding X, et al. TagMic: Listening Through RFID Signals[C]//Proceedings of the IEEE International Conference on Distributed Computing Systems(ICDCS). 2020:1187-1188.
+Li Y, Duan C, Ding X, et al. TagMic: Listening Through RFID Signals[C]//Proceedings of the IEEE International Conference on Distributed Computing Systems (ICDCS). 2020:1187-1188.

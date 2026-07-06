@@ -20,7 +20,7 @@ publication:
   name: "IEEE International Conference on Computer Communications Workshops"
   short_name: "IEEE INFOCOM WKSHPS"
   pages: "1-2"
-  location: "Vancouver, Canada"
+  location: "Virtual Conference"
 peer_reviewed: true
 featured: false
 links:
@@ -50,8 +50,8 @@ schemes by 25%.
 
 ## Citation
 
-S. Li, J. Guo, R. Xi, C. Duan, Z. Zhai, and Y. He, “Pedestrian Trajectory based Calibration for Multi-Radar Network,” in Proceedings of the IEEE Conference on Computer Communications Workshops(INFOCOM WKSHPS), 2021, pp. 1-2.
+S. Li, J. Guo, R. Xi, C. Duan, Z. Zhai, and Y. He, “Pedestrian Trajectory based Calibration for Multi-Radar Network,” in Proceedings of the IEEE Conference on Computer Communications Workshops (INFOCOM WKSHPS), 2021, pp. 1-2.
 
 ## 中文引用（GB/T 7714）
 
-Li S, Guo J, Xi R, et al. Pedestrian Trajectory based Calibration for Multi-Radar Network[C]//Proceedings of the IEEE Conference on Computer Communications Workshops(INFOCOM WKSHPS). 2021: 1-2.
+Li S, Guo J, Xi R, et al. Pedestrian Trajectory based Calibration for Multi-Radar Network[C]//Proceedings of the IEEE Conference on Computer Communications Workshops (INFOCOM WKSHPS). 2021: 1-2.

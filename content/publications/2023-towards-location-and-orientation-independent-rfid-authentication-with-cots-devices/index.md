@@ -14,11 +14,9 @@ publication:
   name: "IEEE International Conference on Pervasive Computing and Communications Workshops and other Affiliated Events"
   short_name: "IEEE PerCom Workshops"
   pages: "363-366"
-  location: "Atlanta, United States of America"
+  location: "Atlanta, USA"
 peer_reviewed: true
 featured: false
-tags:
-  - "CCF-B"
 links:
   - type: pdf
     url: "/papers/2023-towards-location-and-orientation-independent-rfid-authentication-with-cots-devices.pdf"
@@ -43,8 +41,8 @@ effective authentication range of FreeAuth can outperform the state-of-the-art m
 
 ## Citation
 
-Y.Zhu, C. Duan, and X. Ding, “Towards Location- and Orientation-Independent RFID Authentication with COTS Devices,” in Proceedings of the IEEE International Conference on Pervasive Computing and Communications Workshops and other Affiliated Events(PerCom Workshops), 2023, pp. 363-366.
+Y.Zhu, C. Duan, and X. Ding, “Towards Location- and Orientation-Independent RFID Authentication with COTS Devices,” in Proceedings of the IEEE International Conference on Pervasive Computing and Communications Workshops and other Affiliated Events (PerCom Workshops), 2023, pp. 363-366.
 
 ## 中文引用（GB/T 7714）
 
-Zhu Y, Duan C, Ding X. Towards Location- and Orientation-Independent RFID Authentication with COTS Devices[C]//Proceedings of the IEEE International Conference on Pervasive Computing and Communications Workshops and other Affiliated Events(PerCom Workshops). 2023: 363-366.
+Zhu Y, Duan C, Ding X. Towards Location- and Orientation-Independent RFID Authentication with COTS Devices[C]//Proceedings of the IEEE International Conference on Pervasive Computing and Communications Workshops and other Affiliated Events (PerCom Workshops). 2023: 363-366.

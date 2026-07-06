@@ -53,8 +53,8 @@ assessed in lab environments. Experimental results show that our system maintain
 
 ## Citation
 
-J. Yin, Z. Yang, S. Liao, C. Duan, X. Ding, and L. Zhang, “TagFocus: Towards Fine-Grained Multi-Object Identification in RFID-based Systems with Visual Aids,” ACM Transactions on Sensor Networks(TOSN), vol. 19, no. 1, pp. 1-22, 2023.
+J. Yin, Z. Yang, S. Liao, C. Duan, X. Ding, and L. Zhang, “TagFocus: Towards Fine-Grained Multi-Object Identification in RFID-based Systems with Visual Aids,” ACM Transactions on Sensor Networks (TOSN), vol. 19, no. 1, pp. 1-22, 2023.
 
 ## 中文引用（GB/T 7714）
 
-Yin J, Yang Z, Liao S, et al. TagFocus: Towards Fine-Grained Multi-Object Identification in RFID-based Systems with Visual Aids[J]. ACM Transactions on Sensor Networks(TOSN), 2023, 19(1): 1-22.
+Yin J, Yang Z, Liao S, et al. TagFocus: Towards Fine-Grained Multi-Object Identification in RFID-based Systems with Visual Aids[J]. ACM Transactions on Sensor Networks (TOSN), 2023, 19(1): 1-22.

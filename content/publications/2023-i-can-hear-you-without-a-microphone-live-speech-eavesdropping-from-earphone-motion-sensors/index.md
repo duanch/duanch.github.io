@@ -20,7 +20,7 @@ publication:
   name: "IEEE International Conference on Computer Communications"
   short_name: "IEEE INFOCOM"
   pages: "1-10"
-  location: "New York, United States of America"
+  location: "New York area, USA"
 peer_reviewed: true
 featured: false
 tags:

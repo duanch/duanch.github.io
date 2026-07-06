@@ -48,8 +48,8 @@ RFID devices and evaluated it extensively. Experimentalresults show that Tagspin
 
 ## Citation
 
-C. Duan, L. Yang, and Y. Liu, “Accurate Spatial Calibration of RFID Antennas via Spinning Tags,” in Proceedings of the IEEE International Conference on Distributed Computing Systems(ICDCS), 2016, pp. 519-528.
+C. Duan, L. Yang, and Y. Liu, “Accurate Spatial Calibration of RFID Antennas via Spinning Tags,” in Proceedings of the IEEE International Conference on Distributed Computing Systems (ICDCS), 2016, pp. 519-528.
 
 ## 中文引用（GB/T 7714）
 
-Duan C, Yang L, Liu Y. Accurate Spatial Calibration of RFID Antennas via Spinning Tags[C]//Proceedings of the IEEE International Conference on Distributed Computing Systems(ICDCS). 2016: 519-528.
+Duan C, Yang L, Liu Y. Accurate Spatial Calibration of RFID Antennas via Spinning Tags[C]//Proceedings of the IEEE International Conference on Distributed Computing Systems (ICDCS). 2016: 519-528.

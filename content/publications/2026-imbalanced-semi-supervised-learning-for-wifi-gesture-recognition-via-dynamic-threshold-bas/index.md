@@ -61,7 +61,7 @@ model generalization.
 
 ## Citation
 
-Q. Feng, C. Duan, J. Xue, C. Li, F. Huang, X. Zhang, J. Weng, and P. Yu, "Imbalanced Semi-Supervised Learning for WiFi Gesture Recognition via Dynamic Threshold-Based Spatio-Temporal Attention Networks," IEEE Transactions on Mobile Computing (TMC) , vol. 25, no. 1, pp. 483-499, 2026.
+Q. Feng, C. Duan, J. Xue, C. Li, F. Huang, X. Zhang, J. Weng, and P. Yu, “Imbalanced Semi-Supervised Learning for WiFi Gesture Recognition via Dynamic Threshold-Based Spatio-Temporal Attention Networks,” IEEE Transactions on Mobile Computing (TMC), vol. 25, no. 1, pp. 483-499, 2026.
 
 ## 中文引用（GB/T 7714）
 

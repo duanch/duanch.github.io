@@ -52,8 +52,8 @@ Experimental results show that Tagtwins can inspect the rotation frequency with 
 
 ## Citation
 
-C. Duan, L. Yang, Q. Lin, Y. Liu, and L. Xie, “Robust Spinning Sensing with Dual-RFID-Tags in Noisy Settings,” IEEE Transactions on Mobile Computing(TMC), vol. 18, no. 11, pp. 2647-2659, 2019.
+C. Duan, L. Yang, Q. Lin, Y. Liu, and L. Xie, “Robust Spinning Sensing with Dual-RFID-Tags in Noisy Settings,” IEEE Transactions on Mobile Computing (TMC), vol. 18, no. 11, pp. 2647-2659, 2019.
 
 ## 中文引用（GB/T 7714）
 
-Duan C, Yang L, Lin Q, et al. Robust Spinning Sensing with Dual-RFID-Tags in Noisy Settings[J]. IEEE Transactions on Mobile Computing(TMC), 2019, 18(11): 2647-2659.
+Duan C, Yang L, Lin Q, et al. Robust Spinning Sensing with Dual-RFID-Tags in Noisy Settings[J]. IEEE Transactions on Mobile Computing (TMC), 2019, 18(11): 2647-2659.

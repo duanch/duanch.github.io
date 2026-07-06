@@ -18,7 +18,7 @@ publication:
   name: "IEEE International Conference on Computer Communications"
   short_name: "IEEE INFOCOM"
   pages: "1-10"
-  location: "Vancouver, Canada"
+  location: "Virtual Conference"
 peer_reviewed: true
 featured: false
 tags:
@@ -49,8 +49,8 @@ maintains a linear time complexity without privacy violation.
 
 ## Citation
 
-G. Lu, C. Duan, G. Zhou, X. Ding, and Y. Liu, “Privacy-Preserving Outlier Detection with High Efficiency over Distributed Datasets,” in Proceedings of the IEEE International Conference on Computer Communications(INFOCOM), 2021, pp. 1-10.
+G. Lu, C. Duan, G. Zhou, X. Ding, and Y. Liu, “Privacy-Preserving Outlier Detection with High Efficiency over Distributed Datasets,” in Proceedings of the IEEE International Conference on Computer Communications (INFOCOM), 2021, pp. 1-10.
 
 ## 中文引用（GB/T 7714）
 
-Lu G, Duan C, Zhou G, et al. Privacy-Preserving Outlier Detection with High Efficiency over Distributed Datasets[C]//Proceedings of the IEEE International Conference on Computer Communications(INFOCOM). 2021:1-10.
+Lu G, Duan C, Zhou G, et al. Privacy-Preserving Outlier Detection with High Efficiency over Distributed Datasets[C]//Proceedings of the IEEE International Conference on Computer Communications (INFOCOM). 2021:1-10.

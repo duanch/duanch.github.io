@@ -48,8 +48,8 @@ show that TagVision can achieve 98% blob matching accuracy and 10.33mm location 
 
 ## Citation
 
-C. Duan, X. Yang, L. Yang, and Y. Liu, “Fusing RFID and Computer Vision for Fine-Grained Object Tracking,” in Proceedings of the IEEE International Conference on Computer Communications(INFOCOM), 2017, pp. 1-9.
+C. Duan, X. Yang, L. Yang, and Y. Liu, “Fusing RFID and Computer Vision for Fine-Grained Object Tracking,” in Proceedings of the IEEE International Conference on Computer Communications (INFOCOM), 2017, pp. 1-9.
 
 ## 中文引用（GB/T 7714）
 
-Duan C, Rao X, Yang L, et al. Fusing RFID and Computer Vision for Fine-Grained Object Tracking[C]//Proceedings of the IEEE International Conference on Computer Communications(INFOCOM). 2017: 1-9.
+Duan C, Rao X, Yang L, et al. Fusing RFID and Computer Vision for Fine-Grained Object Tracking[C]//Proceedings of the IEEE International Conference on Computer Communications (INFOCOM). 2017: 1-9.

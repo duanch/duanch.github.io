@@ -16,7 +16,7 @@ publication:
   name: "IEEE International Conference on Computer Communications"
   short_name: "IEEE INFOCOM"
   pages: "1281-1290"
-  location: "Toronto, ON, Canada"
+  location: "Virtual Conference"
 peer_reviewed: true
 featured: false
 tags:
@@ -49,8 +49,8 @@ extensively. Experimental results show that our method can archive high accuracy
 
 ## Citation
 
-C. Duan, W. Shi, F. Dang, and X. Ding, “Enabling RFID-Based Tracking for Multi-Objects with Visual Aids: A Calibration-Free Solution,” in Proceedings of the IEEE International Conference on Computer Communications(INFOCOM), 2020, pp. 1281-1290.
+C. Duan, W. Shi, F. Dang, and X. Ding, “Enabling RFID-Based Tracking for Multi-Objects with Visual Aids: A Calibration-Free Solution,” in Proceedings of the IEEE International Conference on Computer Communications (INFOCOM), 2020, pp. 1281-1290.
 
 ## 中文引用（GB/T 7714）
 
-Duan C, Shi W, Dang F, et al. Enabling RFID-Based Tracking for Multi-Objects with Visual Aids: A Calibration-Free Solution[C]//Proceedings of the IEEE International Conference on Computer Communications(INFOCOM). 2020:1281-1290.
+Duan C, Shi W, Dang F, et al. Enabling RFID-Based Tracking for Multi-Objects with Visual Aids: A Calibration-Free Solution[C]//Proceedings of the IEEE International Conference on Computer Communications (INFOCOM). 2020:1281-1290.

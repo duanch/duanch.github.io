@@ -14,7 +14,7 @@ publication:
   name: "ACM/IEEE International Conference on Internet-of-Things Design and Implementation"
   short_name: "ACM/IEEE IoTDI"
   pages: "269-270"
-  location: "New York, United States of America"
+  location: "Virtual"
 peer_reviewed: true
 featured: false
 links:

@@ -16,7 +16,7 @@ publication:
   name: "ACM International Conference on emerging Networking EXperiments and Technologies"
   short_name: "ACM CoNEXT"
   pages: "199-211"
-  location: "Incheon, SOUTH KOREA"
+  location: "Seoul/Incheon, South Korea"
 peer_reviewed: true
 featured: false
 tags:
@@ -49,8 +49,8 @@ of tags are moving.
 
 ## Citation
 
-Q. Lin, L. Yang, H. Jia, C. Duan, and Y. Liu, “Revisiting Reading Rate with Mobility: Rate-Adaptive Reading in COTS RFID Systems,” in Proceedings of the ACM International Conference on emerging Networking EXperiments and Technologies(CoNEXT), 2017, pp. 199-211.
+Q. Lin, L. Yang, H. Jia, C. Duan, and Y. Liu, “Revisiting Reading Rate with Mobility: Rate-Adaptive Reading in COTS RFID Systems,” in Proceedings of the ACM International Conference on emerging Networking EXperiments and Technologies (CoNEXT), 2017, pp. 199-211.
 
 ## 中文引用（GB/T 7714）
 
-Lin Q, Yang L, Jia H, et al. Revisiting Reading Rate with Mobility: Rate-Adaptive Reading in COTS RFID Systems[C]//Proceedings of the ACM International Conference on emerging Networking EXperiments and Technologies(CoNEXT). 2017: 199-211.
+Lin Q, Yang L, Jia H, et al. Revisiting Reading Rate with Mobility: Rate-Adaptive Reading in COTS RFID Systems[C]//Proceedings of the ACM International Conference on emerging Networking EXperiments and Technologies (CoNEXT). 2017: 199-211.

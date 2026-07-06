@@ -50,8 +50,8 @@ mean accuracy of 7:3 cm with standard deviation of 1:8 cm in 3D space.
 
 ## Citation
 
-C. Duan, L. Yang, Q. Lin, and Y. Liu, “Tagspin: High Accuracy Spatial Calibration of RFID Antennas via Spinning Tags,” IEEE Transactions on Mobile Computing(TMC), vol. 17, no. 10, pp. 2438-2451, 2018.
+C. Duan, L. Yang, Q. Lin, and Y. Liu, “Tagspin: High Accuracy Spatial Calibration of RFID Antennas via Spinning Tags,” IEEE Transactions on Mobile Computing (TMC), vol. 17, no. 10, pp. 2438-2451, 2018.
 
 ## 中文引用（GB/T 7714）
 
-Duan C, Yang L, Lin Q, et al. Tagspin: High Accuracy Spatial Calibration of RFID Antennas via Spinning Tags[J]. IEEE Transactions on Mobile Computing(TMC), 2018, 17(10): 2438-2451.
+Duan C, Yang L, Lin Q, et al. Tagspin: High Accuracy Spatial Calibration of RFID Antennas via Spinning Tags[J]. IEEE Transactions on Mobile Computing (TMC), 2018, 17(10): 2438-2451.

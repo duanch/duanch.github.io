@@ -48,8 +48,8 @@ the pinpointing accuracy can reach as high as 92.8%, regardless of tags' total q
 
 ## Citation
 
-Y. Zhu, C. Duan, X. Ding, and Z. Yang, “B-AUT: A Universal Architecture for Batch RFID Tags Authentication,” in Proceedings of the IEEE International Conference on Parallel and Distributed Systems(ICPADS), 2021, pp. 755-762.
+Y. Zhu, C. Duan, X. Ding, and Z. Yang, “B-AUT: A Universal Architecture for Batch RFID Tags Authentication,” in Proceedings of the IEEE International Conference on Parallel and Distributed Systems (ICPADS), 2021, pp. 755-762.
 
 ## 中文引用（GB/T 7714）
 
-Zhu Y, Duan C, Ding X, et al. B-AUT: A Universal Architecture for Batch RFID Tags Authentication[C]//Proceedings of the IEEE International Conference on Parallel and Distributed Systems(ICPADS). 2021:755-762.
+Zhu Y, Duan C, Ding X, et al. B-AUT: A Universal Architecture for Batch RFID Tags Authentication[C]//Proceedings of the IEEE International Conference on Parallel and Distributed Systems (ICPADS). 2021:755-762.
