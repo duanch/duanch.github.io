@@ -26,7 +26,6 @@ peer_reviewed: true
 featured: false
 tags:
   - "CCF-B"
-  - "中科院四区"
 links:
   - type: pdf
     url: "/papers/2023-tagfocus-towards-fine-grained-multi-object-identification-in-rfid-based-systems-with-visua.pdf"

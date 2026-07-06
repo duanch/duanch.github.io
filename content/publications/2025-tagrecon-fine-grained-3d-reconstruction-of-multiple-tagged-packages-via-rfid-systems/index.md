@@ -28,7 +28,6 @@ peer_reviewed: true
 featured: false
 tags:
   - "CCF-B"
-  - "中科院四区"
 links:
   - type: pdf
     url: "/papers/2025-tagrecon-fine-grained-3d-reconstruction-of-multiple-tagged-packages-via-rfid-systems.pdf"

@@ -24,7 +24,6 @@ peer_reviewed: true
 featured: false
 tags:
   - "CCF-A"
-  - "中科院三区"
 links:
   - type: pdf
     url: "/papers/2021-full-dimension-relative-positioning-for-rfid-enabled-self-checkout-services.pdf"

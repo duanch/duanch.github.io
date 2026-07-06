@@ -22,7 +22,6 @@ peer_reviewed: true
 featured: false
 tags:
   - "CCF-C"
-  - "中科院二区"
 links:
   - type: pdf
     url: "/papers/2022-rosense-refining-los-signal-phase-for-robust-rfid-sensing-via-spinning-antenna.pdf"

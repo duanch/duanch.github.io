@@ -22,7 +22,6 @@ peer_reviewed: true
 featured: false
 tags:
   - "CCF-A"
-  - "中科院三区"
 links:
   - type: pdf
     url: "/papers/2019-tash-toward-selective-reading-as-hash-primitives-for-gen2-rfids.pdf"

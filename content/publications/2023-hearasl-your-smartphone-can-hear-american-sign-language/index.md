@@ -24,7 +24,7 @@ peer_reviewed: true
 featured: false
 tags:
   - "CCF-C"
-  - "中科院二区"
+  - "中科院一区"
 links:
   - type: pdf
     url: "/papers/2023-hearasl-your-smartphone-can-hear-american-sign-language.pdf"
