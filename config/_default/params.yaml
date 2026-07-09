@@ -13,7 +13,7 @@ hugoblox:
   typography:
     font: sans
     size: md
-    pack: academic
+    pack: developer
   layout:
     radius: md
     spacing: spacious
