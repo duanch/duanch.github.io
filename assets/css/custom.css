@@ -3,6 +3,41 @@ img[alt="Chunhui Duan"] + div {
   font-weight: 700;
 }
 
+/* Distinguish plain content links with color, without changing prose weight. */
+.page-body .prose a:not([class]),
+.page-body .bio-text a {
+  color: #be185d;
+  font-weight: inherit;
+  text-decoration: none;
+  transition: color 150ms ease;
+}
+
+.page-body .prose a:not([class]):hover,
+.page-body .bio-text a:hover {
+  color: #9f1239;
+  text-decoration: none;
+}
+
+.page-body .prose a:not([class]):focus-visible,
+.page-body .bio-text a:focus-visible {
+  color: #9f1239;
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+  text-decoration: none;
+}
+
+.dark .page-body .prose a:not([class]),
+.dark .page-body .bio-text a {
+  color: #f472b6;
+}
+
+.dark .page-body .prose a:not([class]):hover,
+.dark .page-body .prose a:not([class]):focus-visible,
+.dark .page-body .bio-text a:hover,
+.dark .page-body .bio-text a:focus-visible {
+  color: #f9a8d4;
+}
+
 .publication-rank-badges {
   display: flex;
   flex-wrap: wrap;
