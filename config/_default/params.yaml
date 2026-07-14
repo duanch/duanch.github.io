@@ -24,8 +24,8 @@ hugoblox:
     sticky: true
     align: center
     search: true
-    theme_toggle: true
-    theme_picker: true
+    theme_toggle: false
+    theme_picker: false
     cta:
       enable: false
   footer:

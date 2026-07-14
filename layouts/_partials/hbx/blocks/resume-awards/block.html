@@ -1,4 +1,4 @@
-{{/* Local override: group Funds and Awards while preserving the compact list layout. */}}
+{{/* Local override: group Funds and Awards into a compact CV register. */}}
 
 {{ $block := .wcBlock }}
 {{ $content := $block.content }}
@@ -33,6 +33,8 @@
 {{ range $awards_iter }}
   {{ if reflect.IsMap . }}
     {{ $title := "" }}
+    {{ $title_en := "" }}
+    {{ $title_zh := "" }}
     {{ $category := "" }}
     {{ $icon := "" }}
     {{ $url := "" }}
@@ -42,6 +44,8 @@
     {{ $sort_date := "" }}
     {{ $summary := "" }}
     {{ with index . "title" }}{{ $title = strings.TrimSpace (printf "%v" .) }}{{ end }}
+    {{ with index . "title_en" }}{{ $title_en = strings.TrimSpace (printf "%v" .) }}{{ end }}
+    {{ with index . "title_zh" }}{{ $title_zh = strings.TrimSpace (printf "%v" .) }}{{ end }}
     {{ with index . "category" }}{{ $category = strings.TrimSpace (printf "%v" .) }}{{ end }}
     {{ with index . "icon" }}{{ $icon = strings.TrimSpace (printf "%v" .) }}{{ end }}
     {{ with index . "url" }}{{ $url = strings.TrimSpace (printf "%v" .) }}{{ end }}
@@ -52,7 +56,7 @@
     {{ with index . "summary" }}{{ $summary = strings.TrimSpace (printf "%v" .) }}{{ end }}
     {{ if $title }}
       {{ $date_sort := $sort_date | default ($date | default $date_start) }}
-      {{ $awards = $awards | append (dict "title" $title "category" $category "icon" $icon "url" $url "awarder" $awarder "date" $date "date_start" $date_start "summary" $summary "date_sort" $date_sort) }}
+      {{ $awards = $awards | append (dict "title" $title "title_en" $title_en "title_zh" $title_zh "category" $category "icon" $icon "url" $url "awarder" $awarder "date" $date "date_start" $date_start "summary" $summary "date_sort" $date_sort) }}
     {{ end }}
   {{ end }}
 {{ end }}
@@ -60,45 +64,54 @@
 {{ $title := "" }}
 {{ with index $content "title" }}{{ $title = strings.TrimSpace (printf "%v" .) }}{{ end }}
 
-<div class="mx-auto flex max-w-5xl flex-col items-center justify-center gap-3 px-6">
-  <div class="mb-8 w-full text-center">
-    <div class="text-4xl font-bold text-gray-900 dark:text-white">
+<div class="funds-awards mx-auto w-full max-w-5xl px-6">
+  <div class="funds-awards-header">
+    <div class="funds-awards-title-main">
       {{ $title | markdownify | emojify }}
-    </div>
-    <div class="relative mt-4 border-t border-gray-200 dark:border-gray-700">
-      <span class="absolute left-1/2 top-0 h-0.5 w-12 -translate-x-1/2 -translate-y-px bg-primary-600"></span>
     </div>
   </div>
 
-  <div class="flex w-full flex-col gap-8">
+  <div class="funds-awards-groups">
   {{ if gt (len $awards) 0 }}
-    {{ $groups := slice (dict "key" "Fund" "label" "Funds") (dict "key" "Award" "label" "Awards") }}
-    {{ range $group := $groups }}
-      {{ $group_awards := slice }}
-      {{ range $awards }}
-        {{ if eq (index . "category") (index $group "key") }}
-          {{ $group_awards = $group_awards | append . }}
-        {{ end }}
+    {{ $funds := slice }}
+    {{ $award_items := slice }}
+    {{ range $awards }}
+      {{ if eq (index . "category") "Fund" }}
+        {{ $funds = $funds | append . }}
+      {{ else if eq (index . "category") "Award" }}
+        {{ $award_items = $award_items | append . }}
       {{ end }}
-      {{ if gt (len $group_awards) 0 }}
-        <div class="w-full">
-          <h4 class="mb-3 text-xl font-semibold text-gray-900 dark:text-white">{{ index $group "label" }}</h4>
-          <div class="overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-xl shadow-gray-200/50 divide-y divide-gray-200 dark:border-gray-700 dark:bg-gray-800 dark:shadow-none dark:divide-gray-700">
-            {{ range sort $group_awards "date_sort" "desc" }}
-              {{ template "award-row" (dict "award" . "date_format" $date_format) }}
-            {{ end }}
-          </div>
+    {{ end }}
+
+    {{ if gt (len $funds) 0 }}
+      <section class="funds-awards-group">
+        <div class="funds-awards-group-heading"><h4>Funds</h4></div>
+        <div class="funds-awards-list">
+          {{ range sort $funds "date_sort" "desc" }}
+            {{ template "fund-row" (dict "award" . "date_format" $date_format) }}
+          {{ end }}
         </div>
-      {{ end }}
+      </section>
+    {{ end }}
+
+    {{ if gt (len $award_items) 0 }}
+      <section class="funds-awards-group">
+        <div class="funds-awards-group-heading"><h4>Awards</h4></div>
+        <ul class="awards-simple-list">
+          {{ range sort $award_items "date_sort" "desc" }}
+            {{ template "award-point" (dict "award" . "date_format" $date_format) }}
+          {{ end }}
+        </ul>
+      </section>
     {{ end }}
   {{ end }}
   </div>
 </div>
 
-{{ define "award-row" }}
+{{ define "fund-row" }}
 {{ $award := .award }}
 {{ $date_format := .date_format }}
-<div class="px-7 py-6">
+<article class="funds-awards-item">
   {{ $award_url := index $award "url" }}
   {{ $award_link := "" }}
   {{ $award_target := "" }}
@@ -115,60 +128,84 @@
     {{ end }}
   {{ end }}
 
-  <div class="grid gap-5 md:grid-cols-[minmax(0,1fr)_286px] md:items-stretch">
-    <div class="min-w-0 md:pr-7">
-      {{ if $award_link }}<a href="{{ $award_link | safeURL }}" {{ $award_target | safeHTMLAttr }}>{{ end }}
-        <h5 class="mb-3 text-xl font-bold leading-snug tracking-tight text-gray-900 dark:text-white">
-          {{ index $award "title" | markdownify | emojify }}
-        </h5>
-      {{ if $award_link }}</a>{{ end }}
-
-      {{ with index $award "awarder" }}
-        <div class="text-sm leading-snug text-gray-600 dark:text-gray-300">{{ . }}</div>
-      {{ end }}
-    </div>
-
-    <div class="border-gray-200 md:border-l md:pl-7 md:text-right dark:border-gray-700">
-      {{ $summary := strings.TrimSpace (index $award "summary") }}
-      {{ if $summary }}
-        {{ $summary_parts := split $summary "<br>" }}
-        {{ $summary_head := strings.TrimSpace (index $summary_parts 0) }}
-        {{ $summary_head = replace $summary_head "**" "" }}
-        {{ if $summary_head }}
-          <div class="mb-7 font-semibold text-primary-600 dark:text-primary-300">{{ $summary_head | markdownify | emojify }}</div>
-        {{ end }}
-        {{ if gt (len $summary_parts) 1 }}
-          <div class="space-y-1 text-sm leading-relaxed text-gray-900 dark:text-gray-100">
-            {{ range after 1 $summary_parts }}
-              {{ $line := strings.TrimSpace . }}
-              {{ if $line }}<div>{{ $line | markdownify | emojify }}</div>{{ end }}
-            {{ end }}
-          </div>
-        {{ end }}
-      {{ end }}
-
-      <div class="mt-2 text-sm leading-none text-gray-600 dark:text-gray-300">
-      {{ $date_value := index $award "date" }}
-      {{ $date_start_value := index $award "date_start" }}
-      {{ if $date_value }}
-        {{ $parsed := try (time $date_value) }}
-        {{ if not $parsed.Err }}
-          {{ $parsed.Value | time.Format $date_format }}
-        {{ else }}
-          {{ $date_value }}
-        {{ end }}
-      {{ else if $date_start_value }}
-        {{ $parsed := try (time $date_start_value) }}
-        {{ if not $parsed.Err }}
-          {{ $parsed.Value | time.Format $date_format }}
-        {{ else }}
-          {{ $date_start_value }}
-        {{ end }}
-      {{ else }}
-        {{ i18n "present" | default "Present" }}
-      {{ end }}
-      </div>
-    </div>
+  <div class="funds-awards-date">
+  {{ $date_value := index $award "date" }}
+  {{ $date_start_value := index $award "date_start" }}
+  {{ if $date_value }}
+    {{ $parsed := try (time $date_value) }}
+    {{ if not $parsed.Err }}
+      {{ $parsed.Value | time.Format $date_format }}
+    {{ else }}
+      {{ $date_value }}
+    {{ end }}
+  {{ else if $date_start_value }}
+    {{ $parsed := try (time $date_start_value) }}
+    {{ if not $parsed.Err }}
+      {{ $parsed.Value | time.Format $date_format }}
+    {{ else }}
+      {{ $date_start_value }}
+    {{ end }}
+  {{ else }}
+    {{ i18n "present" | default "Present" }}
+  {{ end }}
   </div>
-</div>
+
+  <div class="funds-awards-primary">
+    {{ if $award_link }}<a href="{{ $award_link | safeURL }}" {{ $award_target | safeHTMLAttr }}>{{ end }}
+      <h5 class="funds-awards-title">
+        <span class="funds-awards-title-en">{{ index $award "title_en" | default (index $award "title") | markdownify | emojify }}</span>
+        {{ with index $award "title_zh" }}<span class="funds-awards-title-zh" lang="zh-CN">{{ . | markdownify | emojify }}</span>{{ end }}
+      </h5>
+    {{ if $award_link }}</a>{{ end }}
+
+    {{ with index $award "awarder" }}
+      <div class="funds-awards-awarder">{{ . }}</div>
+    {{ end }}
+  </div>
+
+  <div class="funds-awards-detail">
+    {{ $summary := "" }}
+    {{ with index $award "summary" }}{{ $summary = strings.TrimSpace (printf "%v" .) }}{{ end }}
+    {{ if $summary }}
+      {{ $summary_parts := split $summary "<br>" }}
+      {{ $summary_head := strings.TrimSpace (index $summary_parts 0) }}
+      {{ $summary_head = replace $summary_head "**" "" }}
+      {{ if $summary_head }}
+        <div class="funds-awards-role">{{ $summary_head | markdownify | emojify }}</div>
+      {{ end }}
+      {{ if gt (len $summary_parts) 1 }}
+        <div class="funds-awards-extra">
+          {{ range after 1 $summary_parts }}
+            {{ $line := strings.TrimSpace . }}
+            {{ if $line }}<div>{{ $line | markdownify | emojify }}</div>{{ end }}
+          {{ end }}
+        </div>
+      {{ end }}
+    {{ end }}
+
+  </div>
+</article>
+{{ end }}
+
+{{ define "award-point" }}
+{{ $award := .award }}
+{{ $date_format := .date_format }}
+<li class="award-simple-item">
+  <div class="award-simple-title">{{ index $award "title" | markdownify | emojify }}</div>
+  {{ $date_value := index $award "date" }}
+  {{ $award_awarder := index $award "awarder" }}
+  {{ $award_summary := index $award "summary" }}
+  {{ if or $date_value $award_awarder $award_summary }}
+  <div class="award-simple-meta">
+    {{ if $date_value }}
+    <span class="award-simple-date">
+      {{ $parsed := try (time $date_value) }}
+      {{ if not $parsed.Err }}{{ $parsed.Value | time.Format $date_format }}{{ else }}{{ $date_value }}{{ end }}
+    </span>
+    {{ end }}
+    {{ with $award_awarder }}{{ if $date_value }}<span class="award-simple-separator" aria-hidden="true">·</span>{{ end }}<span>{{ . }}</span>{{ end }}
+    {{ with $award_summary }}{{ if or $date_value $award_awarder }}<span class="award-simple-separator" aria-hidden="true">·</span>{{ end }}<span class="award-simple-result">{{ . | markdownify | emojify }}</span>{{ end }}
+  </div>
+  {{ end }}
+</li>
 {{ end }}
