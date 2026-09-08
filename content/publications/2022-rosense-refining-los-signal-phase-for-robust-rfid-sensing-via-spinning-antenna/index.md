@@ -49,8 +49,8 @@ outperforming the state-of-the-art solutions.
 
 ## Citation
 
-Y. Zhu, C. Duan, X. Ding, and Z. Yang, “RoSense: Refining LOS Signal Phase for Robust RFID Sensing via Spinning Antenna,” IEEE International Conference on Sensing, Communication, and Networking (IoT-J), vol. 9, no. 23, pp. 24135-24147, 2022.
+Y. Zhu, C. Duan, X. Ding, and Z. Yang, “RoSense: Refining LOS Signal Phase for Robust RFID Sensing via Spinning Antenna,” IEEE Internet of Things Journal (IoT-J), vol. 9, no. 23, pp. 24135-24147, 2022.
 
 ## 中文引用（GB/T 7714）
 
-Zhu Y, Duan C, Ding X, et al. RoSense: Refining LOS Signal Phase for Robust RFID Sensing via Spinning Antenna[J]. IEEE International Conference on Sensing, Communication, and Networking(IOT), 2022, 9(23): 24135-24147.
+Zhu Y, Duan C, Ding X, et al. RoSense: Refining LOS Signal Phase for Robust RFID Sensing via Spinning Antenna[J]. IEEE Internet of Things Journal (IoT-J), 2022, 9(23): 24135-24147.
