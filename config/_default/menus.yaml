@@ -12,7 +12,7 @@ main:
     identifier: experience
     url: /#experience
     weight: 20
-  - name: Papers
+  - name: Publications
     identifier: e5c763fe
     url: /#papers
     weight: 30
