@@ -143,8 +143,8 @@ interests:
 education:
   - degree: "Ph.D. in Software Engineering"
     institution: "School of Software, Tsinghua University"
-    start: "2013-8"
-    end: "2018-6"
+    start: "2013-08"
+    end: "2018-06"
     summary: "经历说明，可留空。"
 ```
 
@@ -154,7 +154,7 @@ education:
 experience:
   - role: "Associate Professor"
     org: "School of Computer Science and Technology, Beijing Institute of Technology"
-    start: "2021-3"
+    start: "2021-03"
     end: ""
     summary: ""
 ```
