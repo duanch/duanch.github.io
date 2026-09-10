@@ -478,14 +478,6 @@ img[alt="Chunhui Duan"] + div {
   transform: translateX(-50%);
 }
 
-.funds-awards-title-main {
-  color: #1f2937;
-  font-size: clamp(2rem, 4vw, 2.5rem);
-  font-weight: 760;
-  line-height: 1.15;
-  letter-spacing: -0.025em;
-}
-
 .funds-awards-groups {
   display: grid;
   gap: 3rem;
@@ -665,7 +657,6 @@ img[alt="Chunhui Duan"] + div {
   --funds-awards-accent: #f9a8d4;
 }
 
-.dark .funds-awards-title-main,
 .dark .funds-awards-group-heading h4,
 .dark .funds-awards-title,
 .dark .award-simple-title {

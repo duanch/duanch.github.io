@@ -1,5 +1,7 @@
 hugoblox:
   schema: "2.0"
+  locale:
+    date_format: "Jan 2, 2006"
   identity:
     name: Chunhui Duan
     type: person

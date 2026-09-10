@@ -14,10 +14,10 @@
 {{ $profile := partial "functions/get_author_profile" $username }}
 {{ $awards_raw := $profile.awards }}
 
-{{ $date_format := "January 2006" }}
+{{ $date_format := "Jan 2006" }}
 {{ $date_format_raw := index $design "date_format" }}
 {{ if eq (printf "%T" $date_format_raw) "string" }}
-  {{ $date_format = strings.TrimSpace $date_format_raw | default "January 2006" }}
+  {{ $date_format = strings.TrimSpace $date_format_raw | default "Jan 2006" }}
 {{ end }}
 
 {{ $awards_iter := slice }}
@@ -66,7 +66,7 @@
 
 <div class="funds-awards mx-auto w-full max-w-5xl px-6">
   <div class="funds-awards-header">
-    <div class="funds-awards-title-main">
+    <div class="funds-awards-title-main text-3xl font-bold tracking-tight text-gray-900 dark:text-white">
       {{ $title | markdownify | emojify }}
     </div>
   </div>
