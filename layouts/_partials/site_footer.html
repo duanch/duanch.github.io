@@ -10,4 +10,10 @@
   {{- end -}}
 
   {{ partial $footerPath . }}
+  {{ if .IsHome }}
+    <p class="text-center">
+      <a class="underline underline-offset-2" href="https://app.pagescms.org/duanch/duanch.github.io/main/collection/online_publications">网站管理</a>
+    </p>
+  {{ end }}
 </footer>
+
